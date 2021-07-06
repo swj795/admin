@@ -33,7 +33,7 @@ const routes = [
   //   path: "/login",
   //   component: Login,
   //   name: "login",
-  // sdasds
+  
   }
 ]
 
