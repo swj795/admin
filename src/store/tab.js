@@ -36,7 +36,7 @@ export default{
                 return;
             }
             // cookie中有菜单就取出菜单
-            console.log("1111");
+            // console.log("1111");
             let menu = JSON.parse(cookie.get('menu'));
             // 将取出的菜单赋值给state.menu
             state.menu = menu;

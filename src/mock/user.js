@@ -4,7 +4,7 @@ import Mock from "mockjs"
 export default {
     // 获取菜单函数 
     getMenu : para =>{
-        // para 是前端发送的数据
+        // para 是前端form中的数据
         console.log(para);
         // 从前端提交过来的数据一般用Josn格式
         const {userName,password} = JSON.parse(para.body);
